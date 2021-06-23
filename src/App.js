@@ -15,7 +15,7 @@ class App extends Component {
         <h1 style={styles.title}>Las tecnologias del Front</h1>
         <ul style={styles.list}>
         {this.state.list.map((name) =>
-          <li> { name }</li>
+          <li>{ name }</li>
         )}         
         </ul>
       </div>
